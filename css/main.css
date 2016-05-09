@@ -59,7 +59,7 @@ h1 {
     background-color: rgba(255,255,255,.5);
     line-height: 5rem;
     text-align: center;
-    padding: 20px;
+    padding: 20px ;
 }
 
 h2 {
@@ -134,9 +134,7 @@ form a:hover {
 /*--------------------------------------------------------------
 1.5 - LISTS
 -------------------------------------------------------------- */
-dt, dd {
-	display: inline-block
-}
+
 dt {
 	font-weight:100;
 	width: 20px;
@@ -425,13 +423,37 @@ figure {
 .push-right {
 	float: right !important;
 }
+@media screen and (max-width: 480px) {
+/*----HEADER/NAV---*/	
+	nav{
+	padding-bottom: 0;
+	}	
+/*----OUR SERVICES---*/	
+	.mrg-top{
+	margin-top:20px;
+	}	
+/*----HEADER/NAV---*/
+	h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+/*----OUR SERVICES---*/
 
-
-
-
-
-
-@media screen and (max-width: 768px) {
-	
-	
+	.col-1-4{
+	width: 100%;	
+	}
+/*----footer---*/
+.col{
+width: 100%;	
+}
+#map{
+width: 166px;
+margin: 80px 0 0 0;	
+}
+#contact{
+padding-left: 20px;	
+}
+form{
+margin-top: -90px;	
+}
 }
